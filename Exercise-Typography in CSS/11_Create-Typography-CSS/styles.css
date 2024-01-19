@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+table,
+td {
+  border: 0.5px solid lightgray;
+  padding: 4px;
+  border-collapse: collapse;
+}
+table th {
+  padding: 5px;
+  width: 30em;
+  background-color: lightgray;
+  text-align: left;
+}
+
+blockquote {
+  padding: 1em;
+  border-left: 4px solid rgb(221, 221, 221);
+  font-style: italic;
+  font-weight: 600;
+}
+blockquote p:last-child {
+  text-align: right;
+}
+
+table tr:nth-child(even) {
+  background-color: whitesmoke;
+}
