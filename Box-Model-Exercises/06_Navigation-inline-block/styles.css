@@ -1,0 +1,32 @@
+body {
+  padding: 4em;
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+header h2,
+nav {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 0 0 3em;
+  color: lightgreen;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav a {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
