@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section.card {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  border: 1px solid inherit;
+  border-radius: 5px; 
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+section.card div {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section.card img {
+  width: 100%; /* Set image width to 100% */
+  height: auto;
+  display: block;
+}
+
+section.card div:nth-child(2) {
+  padding-top: 20px;
+  margin: 10px 30px 10px 30px ;
+  
+}
+
+section.card h3, section.card p, section.card a {
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 10px 20px 10px 20px;
+}
+
+section.card a {
+  display: inline-block;
+  background-color: rgb(0, 153, 0);
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2em;
+  margin-left: 65%;
+  margin-bottom: 1em;
+}
