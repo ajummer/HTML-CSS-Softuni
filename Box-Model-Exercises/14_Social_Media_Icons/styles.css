@@ -1,0 +1,42 @@
+ul {
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+}
+
+i {
+  font-size: 22px;
+  margin: 1rem;
+}
+
+a {
+  display: inline-block;
+  color: rgb(53, 50, 50);
+  text-decoration: none;
+  background-color: rgb(231, 226, 226);
+  border-radius: 50%;
+}
+
+.fa-square-facebook:hover {
+  color: rgb(80, 80, 212);
+}
+
+.fa-twitter:hover {
+  color: lightskyblue;
+}
+
+.fa-google-plus:hover {
+  color: brown;
+}
+
+.fa-linkedin:hover {
+  color: rgb(98, 169, 212);
+}
+
+.fa-instagram:hover{
+    color: pink;
+}
