@@ -1,0 +1,24 @@
+body,
+ul,
+li {
+  display: flex;
+  justify-content: center;
+}
+
+
+ul {
+  max-width: 100vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+li {
+  border: 7px solid black;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  padding: 2rem;
+}
