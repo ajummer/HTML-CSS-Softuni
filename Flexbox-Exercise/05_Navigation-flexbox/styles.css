@@ -1,0 +1,34 @@
+
+
+body{
+    padding: 2.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+header h2{
+    font: 35px Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+main {
+    margin: auto;
+}
